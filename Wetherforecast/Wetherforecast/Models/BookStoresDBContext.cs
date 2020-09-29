@@ -9,6 +9,7 @@ namespace Wetherforecast.Models
     public class BookStoresDBContext : DbContext
     {
         public DbSet<Publisher> Publishers { get; set; }
+        public DbSet<Book> Books { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

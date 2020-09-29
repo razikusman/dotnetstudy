@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Wetherforecast.Models;
 
 namespace Wetherforecast.Migrations
 {
     [DbContext(typeof(BookStoresDBContext))]
-    partial class BookStoresDBContextModelSnapshot : ModelSnapshot
+    [Migration("20200929113217_drop_subtitle_and_maintitile_and_add_title_colomn")]
+    partial class drop_subtitle_and_maintitile_and_add_title_colomn
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

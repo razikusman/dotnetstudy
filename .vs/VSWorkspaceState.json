@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Wetherforecast",
+    "\\Wetherforecast\\Wetherforecast",
+    "\\Wetherforecast\\Wetherforecast\\bin",
+    "\\Wetherforecast\\Wetherforecast\\bin\\Debug\\netcoreapp3.1",
+    "\\Wetherforecast\\Wetherforecast\\Controllers",
+    "\\Wetherforecast\\Wetherforecast\\Migrations",
+    "\\Wetherforecast\\Wetherforecast\\Models"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Wetherforecast\\Wetherforecast\\Controllers\\WeatherForecastController.cs",
   "PreviewInSolutionExplorer": false
 }
