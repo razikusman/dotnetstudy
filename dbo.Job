@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Job] (
+    [job_id]   INT    IDENTITY (1, 1) NOT NULL,
+    [job_desc] VARCHAR (50) DEFAULT ('New Position - title not formalized yet') NOT NULL,
+    CONSTRAINT [PK_Job2] PRIMARY KEY CLUSTERED ([job_id] ASC),
+    FOREIGN KEY ([job_id]) REFERENCES [dbo].[User] ([user_id]) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
